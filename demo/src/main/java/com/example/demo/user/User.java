@@ -13,7 +13,7 @@ import jakarta.persistence.Id;
  * This class is used to represent a user.
  */
 @Entity
-@Table
+@Table(name = "\"user\"")
 public class User {
     // Connect to the database
     @Id
